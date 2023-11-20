@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styless.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="backdrop">
+<div class="modal">
+    <div class="form">
+    <h3 class="header-form">Leave your contacts and we will call you back</h3>
+    <form class="contact-form">
+      <label class="form-label" for="user_name">Name</label>
+      <input type="text" class="colum" name="user_name" id="user_name" />
+
+      <label class="form-label" for="user_phone_number" > Phone </label>
+      <input
+        type="tel"
+        class="colum"
+        name="user_phone_number"
+        form="user_email"
+        id="user_phone_number"
+        
+      />
+      <label class="form-label" for="user_email">Email </label>
+      <input type="email" class="column" name="user_email" id="user_email" />
+
+<label class="form-label" for="user_message"> Comment</label>
+      <textarea class="form-label-com" id="user_message" name="user_comment" rows="5" placeholder="Text input"></textarea>
+
+     
+    <label  class="checkbox">
+<input type="checkbox" class="accept" name="accept" value="accept" >
+<p class="accept-text">I accept the terms and conditions of the <span class="police">Privacy Policy</span></p>
+      </label>
+<button type="submit" class="button"> Send</button>
+    </form>
+    </div>
+</div>
+  </body>
+</html>
