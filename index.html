@@ -540,29 +540,29 @@
             </li>
           </ul>
         </div>
-        <div class="container-subsscribe">
-          <p class="sub-text-footer">Social media</p>
-          <div class="lines">
-            <label class="sub-email-line" for="sub_email"> </label>
-            <div class="email-sub">
-              <input
-                type="email"
-                class="sub-email"
-                name="sub_email"
-                id="sub_email"
-                required
-                placeholder="E-mail"
-              />
-              <label for="subscribe"></label>
-              <button class="subscribe" type="button" id="subscribe">
-                Subscribe
-              </button>
-              <svg class="icon-telegram" width="24" height="24">
-                <use href="./images/icons.svg#icon-telegram"></use>
-              </svg>
-            </div>
-          </div>
-        </div>
+      </div>
+
+      <!-- FOOTER SUBSCRIBE -->
+
+      <div class="container-subsscribe">
+        <p class="sub-text-footer">Subscribe</p>
+        <form class="lines">
+          <label class="sub-email-line" for="sub_email"> </label>
+          <input
+            type="email"
+            class="sub-email"
+            name="sub_email"
+            id="sub_email"
+            required
+            placeholder="E-mail"
+          />
+          <button class="subscribe" type="submit">
+            Subscribe
+            <svg class="icon-telegram" width="24" height="24">
+              <use href="./images/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
@@ -571,7 +571,6 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-button" type="button">
-          <!-- <div class="box-icon"> -->
           <svg class="modal-close-button-icon" width="8" height="8">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
@@ -583,13 +582,13 @@
           </p>
           <form class="contact-form">
             <div class="review-form">
-              <label class="form-label" for="user_name">Name</label>
+              <label class="form-label" for="user-name">Name</label>
               <div class="review-form-input-wrapper">
                 <input
                   type="text"
                   class="colum"
                   name="user_name"
-                  id="user_name"
+                  id="user-name"
                   required
                   pattern="[a-zA-ZА-Яа-яІіЇїЄєЙйҐґ']+"
                   title="Oleksandr"
@@ -647,14 +646,14 @@
               <input
                 type="checkbox"
                 class="accept visually-hidden"
-                name="accept"
+                name="user-privacy"
                 value="true"
                 required
-                id="checkbox-accept"
+                id="user-privacy"
               />
-              <label class="checkbox-label" for="checkbox-accept">
+              <label class="checkbox-label" for="user-privacy">
                 <span class="checkbox-own">
-                  <svg class="checkbox-icon" width="16" height="16">
+                  <svg class="checkbox-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-Checkbox"></use>
                   </svg>
                 </span>
