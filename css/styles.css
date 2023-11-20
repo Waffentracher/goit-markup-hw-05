@@ -470,9 +470,11 @@ img {
   transform: translateY(0%);
 }
 /*Footer*/
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
 }
 
 .logo-footer {
@@ -560,7 +562,6 @@ img {
 }
 .container-footer {
   display: flex;
-  align-items: baseline;
 }
 
 .coontainer-footer-logo {
@@ -570,8 +571,8 @@ img {
 /* FOOTER SUBSCRIBE */
 
 .container-subsscribe {
-  align-items: center;
   margin-left: 80px;
+  justify-content: center;
 }
 .sub-text-footer {
   color: #fff;
@@ -708,8 +709,7 @@ img {
 .form {
   padding: 72px 24px 24px 24px;
 }
-.header-form {
-}
+
 .header-form {
   margin-bottom: 16px;
   color: #2e2f42;
