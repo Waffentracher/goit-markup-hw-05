@@ -592,20 +592,21 @@ img {
 
 /*Modal*/
 .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 408px;
   height: 584px;
-  background-color: #fff;
-}
-.form {
-  width: 408px;
-  height: 584px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  border: 2px solid black;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
+}
+.modal-close-button-icon {
+  stroke: #111111;
+  fill: #111111;
+}
+.form {
+  flex-direction: column;
 }
 .contact-form {
   width: 408px;
