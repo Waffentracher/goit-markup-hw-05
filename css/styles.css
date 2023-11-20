@@ -601,9 +601,28 @@ img {
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
 }
+.box-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #E7E9FC;
+  border: 1px solid #0000001A;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  #
+}
 .modal-close-button-icon {
-  stroke: #111111;
-  fill: #111111;
+  stroke: #2e2f42;
+}
+.modal-close-button {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  line-height: 0;
+  position: absolute;
+  top: 32px;
+  right: 32px;
 }
 .form {
   flex-direction: column;
